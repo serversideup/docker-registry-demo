@@ -29,8 +29,7 @@ nano .env
 
 Update `.env`:
 ```bash
-DOMAIN=registry.example.com  # Your actual domain
-EMAIL=admin@example.com      # Your email for Let's Encrypt
+REGISTRY_DOMAIN=registry.example.com  # Your actual domain
 ```
 
 ### 2. Create User Accounts

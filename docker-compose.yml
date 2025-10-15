@@ -27,8 +27,7 @@ services:
       - ./caddy-data:/data
       - ./caddy-config:/config
     environment:
-      DOMAIN: ${DOMAIN}
-      EMAIL: ${EMAIL}
+      REGISTRY_DOMAIN: ${REGISTRY_DOMAIN}
     networks:
       - registry-network
     depends_on:
