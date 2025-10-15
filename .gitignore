@@ -1,0 +1,16 @@
+# Environment file with secrets
+.env
+
+# Authentication credentials
+auth/
+
+# Registry data
+registry-data/
+
+# Caddy data and config
+caddy-data/
+caddy-config/
+
+# Docker volumes
+*.tar.gz
+
